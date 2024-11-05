@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siva Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/e408c12027.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.jpg" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Experience</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Java Web Developer</p>
+      <h1>Hi, I'm <span>Siva nageswara rao</span></h1>
+    </div>
+  </div>
+  </div>
+  <!---------------------------------------------------about-------------------------------------------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="About-col-1">
+        <img src="images/user.jpeg">
+      </div>
+      <div class="About-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am Siva Nageswara Rao Kakumanu, a dedicated B.Tech candidate specialized in Information Technology [IT] at KKR & KSR Institute of Technology & Sciences. Currently, I am enhancing my software development skills as a Java Full-Stack Developer at NxtWave. My journey has been driven by a passion for technology and a commitment to continuous learning. My recent completion of the Kodnest Dream Factory 2024 certification program has further equipped me to contribute effectively to NxtWave's dynamic team. Here, I apply my knowledge in Java, SQL, and frontend development to deliver innovative solutions that address the evolving demands of the industry. I thrive on tackling new challenges and am passionate about leveraging technology to create impactful solutions. I look forward to collaborating with like-minded professionals and contributing to transformative projects that shape the future of technology.</p>
+          <div class="tab-titles">
+          <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+          <p class="tab-links"  onclick=" opentab('experience')">Experience</p>
+          <p class="tab-links"  onclick=" opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Python</span><br></li>
+              <li><span>Java</span><br></li>
+              <li><span>HTML</span><br></li>
+              <li><span>CSS</span><br> </li>
+              <li><span>SQL</span><br></li>
+              <li><span>C</span><br></li>
+              <li><span>Groovy</span><br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Jun 2024 - present</span><br>Mern stack developer || NXTWave</li>
+              <li><span>Mar 2024 - Jul 2024</span><br>Intern at Kodnest on Java Full-Stack development</li>
+              <li><span>Dec 2023 - Apr 2024</span><br>completed major project on Satellite Imaging Analysis using Artificial Intellegence and Machine Learning.</li>
+              <li><span>Oct 2023 - Oct 2023</span><br>Successfully completed a 36-hour hackathon focused on developing a Blockchain-Enabled Supply Chain Tracker.</li>
+              <li><span>Aug 2022 - Oct 2022</span><br>completed mini project on Online Doctor Appointment using Java Full Stack development</li>
+        
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2020-2024</span><br>B.Tech at KKR & KSR INSTITUTE OF TECHNOLOGY AND SCIENCES<br>CGPA : 8.70</li>
+              <li><span>2018-2020</span><br>Intermediate at Narayana Junior College,Guntur<br>CGPA : 9.53</li>
+              <li><span>2018</span><br>10 nth class at The Lakshmi Narayana English Medium School,Edlapadu <br>CGPA : 9.3</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!---------------------------------------------------------------services-------------------------------------------->
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-users"></i>
+        <h2>Internship at Kodnest</h2>
+        <p>Completed the Kodnest Dream Factory 2024 certification program, gaining skills in Java, SQL, and frontend development with HTML, CSS, and JavaScript. Enhanced my problem-solving and critical thinking abilities, and benefited from invaluable mentorship by expert instructors at Kodnest Technologies Pvt Ltd.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-satellite"></i>
+        <h2>Satellite Imaging Analysis</h2>
+        <p>I created a Satellite Image Clarity and Classification System using Python and machine learning to enhance blurry satellite images. The project employed VGG16 CNN for classification and Random Forest for initial assessments. Key skills included Python, TensorFlow, OpenCV, and SQL.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-lock"></i>
+        <h2>Hackathon on Block chain</h2>
+        <p>I led the development of a Blockchain-Enabled Supply Chain Tracker to enhance visibility, security, and collaboration. Key features included secure data storage, real-time IoT monitoring, advanced analytics, and a company registration segment. This project improves security and promotes collaboration and competition in the supply chain industry.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-user-doctor"></i>
+        <h2>Online Doctor Appointment</h2>
+        <p>I developed a user-friendly Online Doctor Appointment System for families, featuring qualified doctors, emergency services, health checkup options, family booking, and medical program information. The system used Java for the backend, HTML, CSS, and JavaScript for the frontend, SQL for data storage, and Tomcat for server operations.</p>
+           <a href="#">Learn more</a>
+      </div>
+     
+
+    </div>
+  </div>
+  
+ </div>
+ <!----------------------------------------------Portfolio-------------------------------------------------------------->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work1.webp">
+        <div class="layer">
+          <h3>Satellite Imaging Analysis </h3>
+          <p>I developed a Satellite Image Clarity and Classification System using Python and machine learning, employing VGG16 CNN for classification and Streamlit for a user-friendly interface.</p>
+          <a href="https://www.satimagingcorp.com/services/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.png">
+        <div class="layer">
+          <h3>Online Doctor Appointment</h3>
+          <p>Led the development of a blockchain-based supply chain tracker that enhances visibility, security, and collaboration through immutable records, IoT integration, advanced analytics, and a company registration feature.</p>
+          <a href="https://www.booknmeet.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.jpg">
+        <div class="layer">
+          <h3>Blockchain - Supply Chain Tracker </h3>
+          <p>Developed a blockchain-enabled supply chain tracker that enhances visibility, security, and collaboration through immutable records, IoT integration, advanced analytics, and a company registration feature.</p>
+          <a href="https://www.scnsoft.com/blockchain/supply-chain"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+
+  </div>
+ </div>
+ <!-------------------------------------------------------------Contact---------------------------------------->
+ <div id="contact">
+  <div class="row">
+    <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fas fa-paper-plane"></i>sivanageswaraokakumanu77126@gmail.com</p>
+      <p><i class="fa-solid fa-square-phone"></i>9848045833</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/siva.rao.9003"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/Siva8414348"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/professor__svk/?next=%2F&hl=en"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/siva-nageswara-rao-kakumanu/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.link/2glcym"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2024 Siva. All rights<i class="fa-solid fa-heart"></i> reserved</p>
+  </div>
+ </div>
+ <script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for (tablink of tablinks){
+      tablink.classList.remove("active-link");
+    } 
+    for (tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab") 
+  }
+ </script>
+ <script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+  
+ </script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyWRlde49469MrLyleC_NYJi-a3lJZtQRFzg5oZZV-vxF1_9y7PFYNJdm_a4esGgKbn/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+        
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
